@@ -101,5 +101,10 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+# install node, nvm and configure it
+brew install node
+brew install nvm
+mkdir ~/.nvm
+
 # Remove outdated versions from the cellar.
 brew cleanup
