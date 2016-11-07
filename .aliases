@@ -155,3 +155,11 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# GIT, additional ones in .gitconfig
+alias gs="g status"
+alias gl="g log"
+alias gc="g commit -m"
+alias gd="g diff"
+alias gds="g diff --staged"
+alias glp="g l"
