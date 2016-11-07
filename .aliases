@@ -159,7 +159,7 @@ alias path='echo -e ${PATH//:/\\n}'
 # GIT, additional ones in .gitconfig
 alias gs="g status"
 alias gl="g log"
-alias gc="g commit -m"
+alias glp="g l"
+alias gm="g commit -m"
 alias gd="g diff"
 alias gds="g diff --staged"
-alias glp="g l"
