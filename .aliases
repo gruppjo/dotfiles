@@ -13,6 +13,12 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
 alias gs="git status"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias gm="git commit -m "
+alias gl="git log"
+alias glp="g l"
+
 alias h="history"
 alias j="jobs"
 
